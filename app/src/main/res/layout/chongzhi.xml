@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值金额" />
+
+        <EditText
+            android:id="@+id/chong_money"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="0.00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="剪发次数" />
+
+        <EditText
+            android:id="@+id/chong_jianfa"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="干洗次数" />
+
+        <EditText
+            android:id="@+id/chong_ganxi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="洗头次数" />
+
+        <EditText
+            android:id="@+id/chong_xitou"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="0" />
+    </LinearLayout>
+
+</LinearLayout>
